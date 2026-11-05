@@ -13,4 +13,4 @@ Currently the wrapper is based on the Python `requests` module, but later on I m
 - [ ] Create `sendPbxActivationEmails` in `cloudpbx` functions
 - [ ] Create `updatePbxDIDs` in `cloudpbx` functions
 - [ ] Finish `sharedtrunk` function set
-- [ ] Switch to `urllib3` from requests
+- [ ] Switch to `urllib3` from `requests`
