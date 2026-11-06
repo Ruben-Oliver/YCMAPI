@@ -7,6 +7,7 @@ My workplace has the need for some automation tools to do with the YCM, includin
 
 Currently the wrapper is based on the Python `requests` module, but later on I may switch to `urllib3` to reduce external dependencies.
 
+This wrapper is made following the documentation from Yeastar available [here](https://help.yeastar.com/en/yeastar-central-management/ycm-api/yeastar-central-management-developer-guide.html).
 
 ## To Do
 - [ ] Create `createPbx` in `cloudpbx` functions
