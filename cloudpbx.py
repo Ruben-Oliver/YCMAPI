@@ -231,7 +231,7 @@ def resizePbx(access_token, cloudPbxId, extensionCapacity, concurrentCallCapacit
         "extensionCapacity": extensionCapacity,
         "concurrentCallCapacity": concurrentCallCapacity,
         "recordingStatus": "Enabled" if recordingStatus == True else "Disabled",
-        "recordingCapacity": recordingCapacity,
+        "recordingCapacity": recordingCapacity if recordingStatus == True else 0,
         "transcriptionCapacity": transcriptionCapacity,
         "receptionistCapacity": receptionistCapacity,
         "transcriptionPack": transcriptionPack,
